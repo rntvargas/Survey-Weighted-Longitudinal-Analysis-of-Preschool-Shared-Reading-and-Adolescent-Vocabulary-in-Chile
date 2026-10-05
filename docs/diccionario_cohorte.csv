@@ -1,0 +1,25 @@
+﻿variable,descripcion
+folio,Clave longitudinal original; no predictor
+edad_2012_meses,Evaluaciones 2012: edad_meses
+tvip_2012,"Evaluaciones 2012: tvip_pt, puntaje suministrado"
+tvip_2024,Evaluaciones 2024: tvip_pst_hispano
+edad_2024_anios,"Responsable 2024: edad, tipo_persona=1"
+sexo_2012,"Hogar 2012: i4, i2=13; 1=hombre, 2=mujer"
+educ_madre_codigo_2012,"Hogar 2012: j2n, i2=1; 88/99 a NaN"
+madre_conviviente_registrada,1=registro i2=1 en Hogar 2012; 0=sin ese registro
+integrantes_hogar_2012,Número de filas del hogar por folio en 2012
+region_2012,Entrevistada 2012: region; código de 2012
+estrato_2024,Evaluaciones 2024: estrato; no predictor
+incluido_analisis,1=cumple edad y dispone de ambos puntajes; cohorte exploratoria
+hm2_1,Evaluaciones 2012: hm2_1. Conversación con el niño durante la visita; 0/1/NaN
+hm2_2,Evaluaciones 2012: hm2_2. Respuesta verbal a solicitudes o preguntas; 0/1/NaN
+hm2_4,Evaluaciones 2012: hm2_4. Elogios al niño durante la visita; 0/1/NaN
+hm2_5,Evaluaciones 2012: hm2_5. Afecto físico durante la visita; 0/1/NaN
+hm2_10,Evaluaciones 2012: hm2_10. Juegos que enseñan colores o tamaños; 0/1/NaN
+hm2_11,Evaluaciones 2012: hm2_11. Presencia de al menos tres rompecabezas; 0/1/NaN
+hm2_15,Evaluaciones 2012: hm2_15. Presencia de al menos diez libros infantiles; 0/1/NaN
+f_exp,Ponderador original 2024 conservado; no utilizado; ver auditoría
+f_exp_1024,Ponderador original 2024 conservado; no utilizado; ver auditoría
+f_exp_101224,Ponderador original 2024 conservado; no utilizado; ver auditoría
+f_exp_101724,Ponderador original 2024 conservado; no utilizado; ver auditoría
+f_exp_10121724,Ponderador original 2024 conservado; no utilizado; ver auditoría

@@ -1,0 +1,65 @@
+{
+  "n_cohorte": 6688,
+  "n_preescolar_2012": 9669,
+  "n_seguimiento_2024": 6766,
+  "sin_ponderacion": true,
+  "correlacion_tvip": 0.321527261117231,
+  "semilla": 42,
+  "versiones": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "matplotlib": "3.10.8",
+    "scikit-learn": "1.8.0"
+  },
+  "verificacion_archivos": [
+    {
+      "archivo": "2012/datos/evaluaciones_2012.dta",
+      "sha256_correcto": true
+    },
+    {
+      "archivo": "2012/datos/entrevistada_2012.dta",
+      "sha256_correcto": true
+    },
+    {
+      "archivo": "2012/datos/hogar_2012.dta",
+      "sha256_correcto": true
+    },
+    {
+      "archivo": "2024/datos/evaluaciones_2024.dta",
+      "sha256_correcto": true
+    },
+    {
+      "archivo": "2024/datos/responsable_principal_2024.dta",
+      "sha256_correcto": true
+    }
+  ],
+  "regiones_prueba_2012": [
+    1,
+    10,
+    12
+  ],
+  "metricas_prueba": [
+    {
+      "modelo": "Media de entrenamiento",
+      "n_prueba": 586,
+      "MAE": 12.164480285655797,
+      "RMSE": 16.27821398621996,
+      "R2": -0.029041673130556944
+    },
+    {
+      "modelo": "Ridge: variables básicas",
+      "n_prueba": 586,
+      "MAE": 10.922707708064333,
+      "RMSE": 14.705159379932784,
+      "R2": 0.16023276063185876
+    },
+    {
+      "modelo": "Ridge: básicas + hogar",
+      "n_prueba": 586,
+      "MAE": 10.906901751351326,
+      "RMSE": 14.59075324915511,
+      "R2": 0.17324870806666592
+    }
+  ]
+}
